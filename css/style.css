@@ -1,0 +1,537 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Charis+SIL:ital@1&family=Dancing+Script&family=Exo+2&family=Kdam+Thmor+Pro&family=Open+Sans:wght@300&family=Oswald:wght@200;300;400;600&family=Poppins&family=Source+Sans+Pro:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+#aside{
+    background: linear-gradient(rgb(240,236,172),rgb(240,236,172));
+    position: absolute;
+    top: 0px;
+    width: 326px;
+    height: 661px;
+    right: 58px;
+    transform: skewX(-10deg);
+}
+#aside1{
+    background: linear-gradient(rgb(240,236,172),rgb(240,236,172));
+    position: absolute;
+    top: 0px;
+    width: 326px;
+    height: 661px;
+    right: 0px;
+}
+
+#section_part1 nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-color: #ffe404;
+
+}
+#section_part1 nav article {
+    display: flex;
+    align-items: center;
+    width: 297px;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size:27px;
+}
+
+#section_part1 nav article h1 i{
+    font-size: 59px;
+}
+
+#section_part1 nav aside{
+    padding-top: 30px;
+    width: 47%;
+    position: relative;
+}
+#section_part1 nav aside .phone{
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+width: 551px;
+}
+
+#section_part1 nav aside .menu{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+#section_part1 nav aside i{
+    font-size: 39px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 414px;
+    position: absolute;
+    top: 28%;
+    left: 169px;
+}
+
+
+#section_part1 nav aside .menu a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#section_part2{
+    display: flex;
+    width: 100%;
+    height: 82vh;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ffe404;
+}
+
+#section_part2 article h4{
+    font-size: xx-large;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#section_part2 article  h1{
+    font-size: 60px;
+    font-family: 'Libre Baskerville', serif;
+    padding: 14px;
+}
+
+#section_part2 article  p{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+#section_part2  aside {
+    position: relative;
+}
+
+#section_part2 article{
+    position: relative;
+    left: -99px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 217px;
+    top: -45px;
+}
+#section_part2 article span{
+    border-bottom: 1px solid;
+    width: 375px;
+    padding: 13px;
+}
+#section_part2 article button{
+    padding: 14px 32px;
+    width: 178px;
+    background-color: #ffe404;
+    font-weight: 900;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 1px solid black;
+}
+#section_part2  aside figure img{
+    height: 833px;
+    position: absolute;
+    top: -415px;
+    left: -602px;
+    overflow: hidden;
+
+}
+#section_part2 article figure{
+    position: relative;
+}
+
+#section_part2 article figure img{
+    width: 73px;
+    position: absolute;
+    top: -41px;
+    right: 178px;
+}
+
+#section_part2 article figure img:last-child {
+    width: 98px;
+    position: absolute;
+    top: -10px;
+    left: 244px;
+}
+
+#section_part2 article div{
+    display: flex;
+    align-items: center;
+}
+
+#section_part2 article div h5{
+    width: 120px;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+#section_part2 aside .tomoto{
+    position: absolute;
+    top: 125px;
+    right: 426px;
+    width: 88px;
+
+}
+
+#section_part2 aside .leaf{
+    position: absolute;
+    top: 76px;
+    width: 93px;
+    left: 36px;
+}
+
+
+#section_part3{
+position: relative;
+}
+
+#section_part3 header{
+    width: 100%;
+    height: 203px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 114px;
+}
+#section_part3 header h1{
+font-family: 'Libre Baskerville', serif;
+font-size: xxx-large;
+}
+
+#section_part3 header p{
+    width: 70%;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+#section_part3 .spaghetti{
+    position: absolute;
+    top: -305px;
+    /* width: 395px; */
+    /* height: 398px; */
+    left: -305px;
+    /* right: 40px; */
+     /* border: 2px solid; */
+}
+
+#section_part3 main{
+    display: flex;
+    padding-top: 50px;
+    width: 100%;
+}
+
+#section_part3 main div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 50px;
+    padding: 25px 9px 33px 8px;
+    height: 200px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+#section_part3 main div h5{
+font-size: 23px;
+text-transform: uppercase;
+}
+
+#section_part3 main div p{
+    font-size: 13px;
+    padding: 20px 0px 35px 0px;
+    text-transform: capitalize;
+}
+
+#section_part3 main div button{
+    width: 190px;
+    padding: 15px 0px;
+    margin: 0 auto;
+    background: #ffe404;
+    border: none;
+    font-weight: bolder;
+}
+
+#section_part3 .backgorund {
+    position: relative;
+    z-index: -1;
+}
+#section_part3  span{
+    background-color: rgb(240,236,172);
+    width: 100%;
+    height: 161px;
+    position: absolute;
+    top: 165px;
+}
+
+#section_part4 header{
+    width: 100%;
+    height: 323px;
+    text-align: center;
+    padding-top: 77px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#section_part4 header p{
+width: 69%;
+font-family: 'Kdam Thmor Pro', sans-serif;
+font-size: smaller;
+}
+
+#section_part4 header h5{
+font-family: 'Kdam Thmor Pro', sans-serif;
+letter-spacing:2px;
+}
+
+#section_part4 header h1{
+font-family: 'Libre Baskerville', serif;
+    font-size: xxx-large;
+}
+
+#section_part4 main figure{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 362px;
+}
+
+#section_part4 main {
+    position: relative;
+}
+
+#section_part4 main > img{
+    position: absolute;
+    top: -63px;
+    right: 261px;
+}
+
+#section_part4 main figure img{
+    height: 287px;
+}
+
+#section_part4 .btn1{
+    background-color: #ffe404;
+    position: absolute;
+    right: 698px;
+    top: 426px;
+    padding: 19px 20px 0px 0px;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+
+    
+}
+#section_part4 .btn2{
+    background-color: #ccc6c6;
+    position: absolute;
+    right: 665px;
+    top: 426px;
+    padding:  19px 20px 0px 0px;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+    
+}
+#section_part4 .btn3{
+    background-color: #ccc6c6;
+    position: absolute;
+    right: 632px;
+    top: 426px;
+    padding: 19px 20px 0px 0px;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;    
+}
+
+#section_part4 footer{
+width: 100%;
+height: 600px;
+padding-top: 219px;
+}
+
+#section_part4 footer main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: -38px 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+#section_part4 footer main article{
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+
+#section_part4 footer main aside h3{
+    position: absolute;
+    top: 73px;
+    color: #fff;
+    left: 68px;
+    font-size: 25px;
+
+}
+
+#section_part4 footer main aside h1{
+    position: absolute;
+    top: 116px;
+    color: #fff;
+    left: 68px;
+    font-size: 46px;
+
+}
+
+#section_part4 footer main article div {
+    position: relative;
+}
+#section_part4 footer main article div h3{
+color: #fff;
+    position: absolute;
+    top: 31px;
+    left: 23px;
+    font-size: 20px;
+}
+
+#section_part4 footer main article div h1{
+    color: #fff;
+    position: absolute;
+    top: 66px;
+    left: 23px;
+    font-size: 28px;
+    }
+
+#section_part5 header{
+    width: 100%;
+    height: 271px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#section_part5 header h5{
+font-family: 'Kdam Thmor Pro', sans-serif;
+    letter-spacing: 1px;
+    padding-bottom: 3px;
+}
+
+#section_part5 header h1{
+font-family: 'Libre Baskerville', serif;
+font-size: xxx-large;
+}
+
+#section_part5 main{
+    width: 100%;
+    height: 178px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#section_part5 main table input{
+padding: 19px 53px 10px;
+}
+
+#section_part5 main table input[type="button"]{
+    padding: 14px 74px 12px;
+    font-size: 19px;
+    border: none;
+    background: #ffe404;
+    font-weight: bolder;
+    cursor: pointer;
+    }
+
+#section_part6{
+    width: 100%;
+    height: 52%;
+    position: relative;
+    top: 89px;
+    }
+#section_part6 img{
+    width: 1349px;
+    height: 342px;
+    }
+
+#section_part6 h1{
+    color: #ffe404;
+    position: absolute;
+    top: 67px;
+    left: 114px;
+    font-size: 44px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+#section_part6 main{
+    color: #fff;
+    position: absolute;
+    top: 139px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#section_part6 main div:first-child{
+width: 50%;
+    padding-top: 27px;
+}
+
+#section_part6 main div:last-child{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+}
+
+#section_part6 main div i{
+    color: #ffe404;
+    font-size: 29px;
+    padding-right: 19px;
+
+}
+
+
+#section_part6 footer p{
+    color: #fff;
+}
+
+#section_part6 footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 287px;
+    margin: 0 109px;
+    width: 88%;
+}
+
+
+#section_part6 footer div{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 19px;
+}
+
+#section_part6 footer div i{
+    font-size: 29px;
+}
